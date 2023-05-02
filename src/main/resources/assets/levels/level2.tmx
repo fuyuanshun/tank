@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.5" orientation="orthogonal" renderorder="right-down" width="26" height="26" tilewidth="24" tileheight="24" infinite="0" nextlayerid="3" nextobjectid="399">
+ <tileset firstgid="1" name="maptitles" tilewidth="24" tileheight="24" tilecount="5" columns="5">
+  <image source="maptitles.png" width="120" height="24"/>
+ </tileset>
+ <tileset firstgid="6" name="flag" tilewidth="48" tileheight="48" tilecount="1" columns="1">
+  <image source="../textures/map/flag.png" width="48" height="48"/>
+ </tileset>
+ <objectgroup id="2" name="对象层 1">
+  <object id="1" type="border" x="0" y="0" width="624" height="24"/>
+  <object id="4" type="border" x="600" y="24" width="24" height="600"/>
+  <object id="6" type="border" x="0" y="24" width="24" height="576"/>
+  <object id="7" type="border" x="0" y="600" width="600" height="24"/>
+  <object id="34" type="greens" gid="5" x="384" y="288" width="24" height="24"/>
+  <object id="35" type="greens" gid="5" x="24" y="288" width="24" height="24"/>
+  <object id="36" type="greens" gid="5" x="48" y="288" width="24" height="24"/>
+  <object id="37" type="greens" gid="5" x="72" y="288" width="24" height="24"/>
+  <object id="38" type="greens" gid="5" x="120" y="288" width="24" height="24"/>
+  <object id="39" type="greens" gid="5" x="96" y="288" width="24" height="24"/>
+  <object id="40" type="greens" gid="5" x="168" y="288" width="24" height="24"/>
+  <object id="41" type="greens" gid="5" x="144" y="288" width="24" height="24"/>
+  <object id="42" type="greens" gid="5" x="192" y="288" width="24" height="24"/>
+  <object id="43" type="greens" gid="5" x="216" y="288" width="24" height="24"/>
+  <object id="44" type="greens" gid="5" x="240" y="288" width="24" height="24"/>
+  <object id="70" type="greens" gid="5" x="24" y="312" width="24" height="24"/>
+  <object id="71" type="greens" gid="5" x="48" y="312" width="24" height="24"/>
+  <object id="72" type="greens" gid="5" x="72" y="312" width="24" height="24"/>
+  <object id="73" type="greens" gid="5" x="96" y="312" width="24" height="24"/>
+  <object id="74" type="greens" gid="5" x="120" y="312" width="24" height="24"/>
+  <object id="75" type="greens" gid="5" x="144" y="312" width="24" height="24"/>
+  <object id="76" type="greens" gid="5" x="168" y="312" width="24" height="24"/>
+  <object id="77" type="greens" gid="5" x="192" y="312" width="24" height="24"/>
+  <object id="78" type="greens" gid="5" x="216" y="312" width="24" height="24"/>
+  <object id="79" type="greens" gid="5" x="240" y="312" width="24" height="24"/>
+  <object id="80" type="greens" gid="5" x="264" y="288" width="24" height="24"/>
+  <object id="81" type="greens" gid="5" x="264" y="312" width="24" height="24"/>
+  <object id="82" type="greens" gid="5" x="288" y="288" width="24" height="24"/>
+  <object id="83" type="greens" gid="5" x="288" y="312" width="24" height="24"/>
+  <object id="84" type="greens" gid="5" x="312" y="288" width="24" height="24"/>
+  <object id="85" type="greens" gid="5" x="312" y="312" width="24" height="24"/>
+  <object id="86" type="greens" gid="5" x="336" y="288" width="24" height="24"/>
+  <object id="87" type="greens" gid="5" x="336" y="312" width="24" height="24"/>
+  <object id="88" type="greens" gid="5" x="360" y="288" width="24" height="24"/>
+  <object id="89" type="greens" gid="5" x="360" y="312" width="24" height="24"/>
+  <object id="90" type="greens" gid="5" x="384" y="312" width="24" height="24"/>
+  <object id="129" type="sea" x="24" y="192" width="24" height="24"/>
+  <object id="130" type="sea" x="48" y="192" width="24" height="24"/>
+  <object id="132" type="sea" x="24" y="216" width="24" height="24"/>
+  <object id="133" type="sea" x="48" y="216" width="24" height="24"/>
+  <object id="134" type="sea" x="72" y="192" width="24" height="24"/>
+  <object id="135" type="sea" x="96" y="192" width="24" height="24"/>
+  <object id="136" type="sea" x="72" y="216" width="24" height="24"/>
+  <object id="137" type="sea" x="96" y="216" width="24" height="24"/>
+  <object id="158" type="flag" gid="6" x="288" y="600" width="48" height="48"/>
+  <object id="200" type="brick" gid="1" x="240" y="336" width="24" height="24"/>
+  <object id="201" type="brick" gid="1" x="312" y="336" width="24" height="24"/>
+  <object id="202" type="brick" gid="1" x="336" y="336" width="24" height="24"/>
+  <object id="203" type="brick" gid="1" x="288" y="336" width="24" height="24"/>
+  <object id="204" type="brick" gid="1" x="264" y="336" width="24" height="24"/>
+  <object id="205" type="brick" gid="1" x="264" y="360" width="24" height="24"/>
+  <object id="206" type="brick" gid="1" x="288" y="360" width="24" height="24"/>
+  <object id="207" type="brick" gid="1" x="288" y="360" width="24" height="24"/>
+  <object id="208" type="brick" gid="1" x="312" y="360" width="24" height="24"/>
+  <object id="209" type="brick" gid="1" x="336" y="360" width="24" height="24"/>
+  <object id="210" type="brick" gid="1" x="336" y="384" width="24" height="24"/>
+  <object id="211" type="brick" gid="1" x="312" y="384" width="24" height="24"/>
+  <object id="212" type="brick" gid="1" x="288" y="384" width="24" height="24"/>
+  <object id="213" type="brick" gid="1" x="264" y="384" width="24" height="24"/>
+  <object id="214" type="brick" gid="1" x="240" y="360" width="24" height="24"/>
+  <object id="215" type="brick" gid="1" x="240" y="384" width="24" height="24"/>
+  <object id="216" type="brick" gid="1" x="240" y="408" width="24" height="24"/>
+  <object id="217" type="brick" gid="1" x="288" y="408" width="24" height="24"/>
+  <object id="218" type="brick" gid="1" x="312" y="408" width="24" height="24"/>
+  <object id="219" type="brick" gid="1" x="336" y="408" width="24" height="24"/>
+  <object id="220" type="brick" gid="1" x="264" y="408" width="24" height="24"/>
+  <object id="251" type="stone" gid="4" x="24" y="144" width="24" height="24"/>
+  <object id="252" type="stone" gid="4" x="48" y="144" width="24" height="24"/>
+  <object id="253" type="stone" gid="4" x="96" y="144" width="24" height="24"/>
+  <object id="254" type="stone" gid="4" x="96" y="144" width="24" height="24"/>
+  <object id="255" type="stone" gid="4" x="120" y="144" width="24" height="24"/>
+  <object id="256" type="stone" gid="4" x="144" y="144" width="24" height="24"/>
+  <object id="257" type="stone" gid="4" x="72" y="144" width="24" height="24"/>
+  <object id="258" type="stone" gid="4" x="24" y="168" width="24" height="24"/>
+  <object id="259" type="stone" gid="4" x="72" y="168" width="24" height="24"/>
+  <object id="260" type="stone" gid="4" x="48" y="168" width="24" height="24"/>
+  <object id="261" type="stone" gid="4" x="96" y="168" width="24" height="24"/>
+  <object id="262" type="stone" gid="4" x="120" y="168" width="24" height="24"/>
+  <object id="263" type="stone" gid="4" x="144" y="168" width="24" height="24"/>
+  <object id="264" type="stone" gid="4" x="264" y="144" width="24" height="24"/>
+  <object id="265" type="stone" gid="4" x="312" y="144" width="24" height="24"/>
+  <object id="266" type="stone" gid="4" x="336" y="144" width="24" height="24"/>
+  <object id="267" type="stone" gid="4" x="288" y="144" width="24" height="24"/>
+  <object id="268" type="stone" gid="4" x="288" y="168" width="24" height="24"/>
+  <object id="269" type="stone" gid="4" x="312" y="168" width="24" height="24"/>
+  <object id="270" type="stone" gid="4" x="336" y="168" width="24" height="24"/>
+  <object id="271" type="stone" gid="4" x="264" y="168" width="24" height="24"/>
+  <object id="272" type="stone" gid="4" x="264" y="192" width="24" height="24"/>
+  <object id="273" type="stone" gid="4" x="288" y="192" width="24" height="24"/>
+  <object id="274" type="stone" gid="4" x="312" y="192" width="24" height="24"/>
+  <object id="275" type="stone" gid="4" x="336" y="192" width="24" height="24"/>
+  <object id="284" type="greens" gid="5" x="528" y="264" width="24" height="24"/>
+  <object id="285" type="greens" gid="5" x="576" y="264" width="24" height="24"/>
+  <object id="286" type="greens" gid="5" x="552" y="264" width="24" height="24"/>
+  <object id="287" type="greens" gid="5" x="552" y="288" width="24" height="24"/>
+  <object id="288" type="greens" gid="5" x="576" y="288" width="24" height="24"/>
+  <object id="289" type="greens" gid="5" x="528" y="288" width="24" height="24"/>
+  <object id="290" type="greens" gid="5" x="504" y="264" width="24" height="24"/>
+  <object id="291" type="greens" gid="5" x="504" y="288" width="24" height="24"/>
+  <object id="292" type="greens" gid="5" x="504" y="408" width="24" height="24"/>
+  <object id="293" type="greens" gid="5" x="552" y="432" width="24" height="24"/>
+  <object id="294" type="greens" gid="5" x="504" y="504" width="24" height="24"/>
+  <object id="295" type="greens" gid="5" x="456" y="504" width="24" height="24"/>
+  <object id="296" type="greens" gid="5" x="480" y="432" width="24" height="24"/>
+  <object id="297" type="greens" gid="5" x="528" y="480" width="24" height="24"/>
+  <object id="298" type="greens" gid="5" x="528" y="480" width="24" height="24"/>
+  <object id="299" type="greens" gid="5" x="528" y="456" width="24" height="24"/>
+  <object id="300" type="greens" gid="5" x="504" y="456" width="24" height="24"/>
+  <object id="301" type="greens" gid="5" x="480" y="480" width="24" height="24"/>
+  <object id="302" type="greens" gid="5" x="504" y="432" width="24" height="24"/>
+  <object id="303" type="greens" gid="5" x="480" y="408" width="24" height="24"/>
+  <object id="304" type="greens" gid="5" x="528" y="408" width="24" height="24"/>
+  <object id="305" type="greens" gid="5" x="528" y="432" width="24" height="24"/>
+  <object id="306" type="greens" gid="5" x="552" y="408" width="24" height="24"/>
+  <object id="307" type="greens" gid="5" x="504" y="480" width="24" height="24"/>
+  <object id="308" type="greens" gid="5" x="480" y="456" width="24" height="24"/>
+  <object id="309" type="greens" gid="5" x="552" y="456" width="24" height="24"/>
+  <object id="310" type="greens" gid="5" x="552" y="480" width="24" height="24"/>
+  <object id="311" type="greens" gid="5" x="528" y="504" width="24" height="24"/>
+  <object id="312" type="greens" gid="5" x="552" y="504" width="24" height="24"/>
+  <object id="313" type="greens" gid="5" x="480" y="504" width="24" height="24"/>
+  <object id="314" type="greens" gid="5" x="456" y="480" width="24" height="24"/>
+  <object id="315" type="greens" gid="5" x="456" y="456" width="24" height="24"/>
+  <object id="316" type="greens" gid="5" x="456" y="432" width="24" height="24"/>
+  <object id="317" type="greens" gid="5" x="456" y="408" width="24" height="24"/>
+  <object id="318" type="stone" gid="4" x="504" y="144" width="24" height="24"/>
+  <object id="322" type="stone" gid="4" x="528" y="144" width="24" height="24"/>
+  <object id="323" type="stone" gid="4" x="552" y="144" width="24" height="24"/>
+  <object id="325" type="stone" gid="4" x="576" y="144" width="24" height="24"/>
+  <object id="326" type="stone" gid="4" x="576" y="168" width="24" height="24"/>
+  <object id="327" type="stone" gid="4" x="552" y="168" width="24" height="24"/>
+  <object id="328" type="stone" gid="4" x="528" y="168" width="24" height="24"/>
+  <object id="329" type="stone" gid="4" x="504" y="168" width="24" height="24"/>
+  <object id="330" type="brick" gid="1" x="264" y="552" width="24" height="24"/>
+  <object id="331" type="brick" gid="1" x="264" y="576" width="24" height="24"/>
+  <object id="332" type="brick" gid="1" x="264" y="600" width="24" height="24"/>
+  <object id="333" type="brick" gid="1" x="288" y="552" width="24" height="24"/>
+  <object id="334" type="brick" gid="1" x="312" y="552" width="24" height="24"/>
+  <object id="335" type="brick" gid="1" x="336" y="552" width="24" height="24"/>
+  <object id="336" type="brick" gid="1" x="336" y="576" width="24" height="24"/>
+  <object id="337" type="brick" gid="1" x="336" y="600" width="24" height="24"/>
+  <object id="340" type="stone" gid="4" x="24" y="336" width="24" height="24"/>
+  <object id="341" type="stone" gid="4" x="48" y="336" width="24" height="24"/>
+  <object id="342" type="stone" gid="4" x="72" y="336" width="24" height="24"/>
+  <object id="343" type="stone" gid="4" x="120" y="336" width="24" height="24"/>
+  <object id="344" type="stone" gid="4" x="192" y="336" width="24" height="24"/>
+  <object id="345" type="stone" gid="4" x="168" y="336" width="24" height="24"/>
+  <object id="348" type="stone" gid="4" x="72" y="408" width="24" height="24"/>
+  <object id="349" type="stone" gid="4" x="48" y="408" width="24" height="24"/>
+  <object id="350" type="stone" gid="4" x="24" y="408" width="24" height="24"/>
+  <object id="351" type="stone" gid="4" x="48" y="504" width="24" height="24"/>
+  <object id="352" type="stone" gid="4" x="72" y="504" width="24" height="24"/>
+  <object id="356" type="stone" gid="4" x="96" y="576" width="24" height="24"/>
+  <object id="357" type="stone" gid="4" x="48" y="552" width="24" height="24"/>
+  <object id="368" type="stone" gid="4" x="408" y="216" width="24" height="24"/>
+  <object id="369" type="stone" gid="4" x="384" y="216" width="24" height="24"/>
+  <object id="370" type="stone" gid="4" x="288" y="240" width="24" height="24"/>
+  <object id="371" type="stone" gid="4" x="216" y="240" width="24" height="24"/>
+  <object id="372" type="stone" gid="4" x="480" y="288" width="24" height="24"/>
+  <object id="380" type="stone" gid="4" x="480" y="240" width="24" height="24"/>
+  <object id="381" type="stone" gid="4" x="456" y="168" width="24" height="24"/>
+  <object id="382" type="stone" gid="4" x="408" y="168" width="24" height="24"/>
+  <object id="383" type="stone" gid="4" x="384" y="120" width="24" height="24"/>
+  <object id="384" type="stone" gid="4" x="456" y="120" width="24" height="24"/>
+  <object id="385" type="stone" gid="4" x="504" y="120" width="24" height="24"/>
+  <object id="386" type="stone" gid="4" x="552" y="120" width="24" height="24"/>
+  <object id="387" type="stone" gid="4" x="528" y="96" width="24" height="24"/>
+  <object id="388" type="stone" gid="4" x="360" y="264" width="24" height="24"/>
+  <object id="397" type="stone" gid="4" x="24" y="600" width="24" height="24"/>
+ </objectgroup>
+</map>
